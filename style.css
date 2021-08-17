@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(92, 181, 216);
+    background: linear-gradient(140deg,#c5a64fcb 4%,#ee13b7cb 90%);
+}
+.container{
+    position: relative;
+    max-width: 800;
+    padding: 10px;
+    margin: 0 auto;
+}
+.addTask{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.addtask > input[type="text"]{
+    width: 90;
+    color: rgb(237, 240, 232);
+    border: none;
+    border-bottom: 4px solid rgb(102, 102, 102);
+    background: none;
+    padding: 3%;
+    font-size: 35px;
+    outline: none;
+}
+.addtask button{
+    margin: 0 10px;
+    background: #c54fbfcb;
+    color: #fff;
+    font-size: 18PX;
+    text-transform: uppercase;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.notCompleted {
+    margin: 10px 2;
+    padding: 30px;
+    
+
+    
+}
+.Completed {
+    margin: 10px 2;
+    padding: 30px;
+
+}
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+}
+ol{
+    list-style: none;
+}
+ol li{
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    background: #ec4150cb;
+    font-size: 22px;
+
+}
+ol.Completed li{
+    background: #87e969cb;
+}
+li button{
+    float: right;
+    padding: 5px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+}
